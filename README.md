@@ -52,3 +52,16 @@ For each setup construct, we should plan on having a minimum of two profiles for
 In both cases, these are reference architectures, fully open sourced and forkable. Ideally, new participants in the Filecoin ecosystem could use these architectures as starting points and re-use components that make sense to them (e.g. containers).
 
 Additionally, we should plan on integrating all components here into native build, CI/CD and test systems. So, every time a new release is tagged, new containers are built, the system goes through high level smoke tests and bugs are visible in test coverage (or filed with the appropriate teams).
+
+## Prior Art
+
+There are many examples of existing sample work here:
+- Setting up a lotus node (gist) - https://gist.github.com/ribasushi/5b06148b19d1fcd350421b70cbade7af
+- A bunch of helm charts we already have - https://github.com/filecoin-project/helm-charts
+- Instructions for installing everything -  https://lotus.filecoin.io/docs/set-up/install/
+
+Discussions:
+- https://github.com/filecoin-project/lotus/discussions
+- https://github.com/filecoin-project/community/discussions
+- https://lotus.filecoin.io/
+- https://github.com/filecoin-project/lotus/discussions/5989#discussion-3310965
